@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Welcome To Travel Form"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,100&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <img class="bg" src="bg.jpg" alt="ustrip" />
+    <div class="container">
+        <h1>WELCOME TO US TRIP FORM</h1>
+        <p>Enter Your Details And Submit The Form To Conform Your Participation In The Trip</p>
+        <p class="SubmitMsg">Thanks for Submiting The Form. We Are Happy To See You Joining Us...</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name:" />
+            <input type="text" name="age" id="age" placeholder="Enter Your Age:" />
+            <input type="text" name="gender" id="gender" placeholder="Enter Your gender:" />
+            <input type="email" name="email" id="email" placeholder="Enter Your Mail:" />
+            <input type="number" name="phone" id="phone" placeholder="Enter Your Phone Number:" />
+            <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="Enter your FeedBack...."></textarea>
+            <button class="btn">Submit</button>
+
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <!--INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) 
+        VALUES ('1', 'testname', '20', 'male', 'this@this.com', '9999999999', 'this is good value',
+        '2021-10-15 15:25:32.000000');-->
+</body>
+</html>
